@@ -107,7 +107,7 @@ export default [
     shortDescription:
       "A Tik Tak Toe game, where you can play. Using localstorage to save the game statistic.",
     language: "html, css, javascript",
-    frontpage: true,
+    frontpage: false,
   },
   {
     id: 12,
@@ -146,6 +146,16 @@ export default [
     coverImg: "login.png",
     shortDescription:
       "A simple application where you can signup as a user, login and then logout. Firebase Auth is used for this.",
+    language: "jsx, react, css, firebase",
+    frontpage: true,
+  },
+  {
+    id: 16,
+    link: "https://github.com/signekp/examproject",
+    title: "Create and delete with Firebase",
+    coverImg: "moviereview.png",
+    shortDescription:
+      "A  application where you can signup as a user, login and then logout. You can create and delete your review and upload a picture to Firebase storage.",
     language: "jsx, react, css, firebase",
     frontpage: true,
   },
