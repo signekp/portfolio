@@ -31,7 +31,7 @@ export default [
   },
   {
     id: 4,
-    link: "/",
+    link: "https://github.com/signekp/portfolio/tree/master",
     title: "My portfolio",
     coverImg: "portfolio2.jpg",
     shortDescription:
