@@ -1,12 +1,10 @@
-import React from 'react'
-import ProjectPage from '../components/ProjectsPage'
-import SectionHeader from '../components/SectionHeader'
+import React from "react";
+import ProjectPage from "../components/ProjectsPage";
 
 export default function Projects() {
-    return (
-        <div>
-            <ProjectPage />
-
-        </div>
-    )
+	return (
+		<div>
+			<ProjectPage />
+		</div>
+	);
 }

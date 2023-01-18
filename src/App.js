@@ -11,21 +11,23 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 
 function App() {
-  return (
-    <div className="container">
-      <Navbar />
+	return (
+		<>
+			<div className="container">
+				<Navbar />
 
-      <FixedIcons />
+				<FixedIcons />
 
-      <Routes>
-        <Route path="/about" element={<About />}></Route>
-        <Route path="/projects" element={<Projects />}></Route>
-        <Route path="/contact" element={<Contact />}></Route>
-        <Route path="/" element={<Home />}></Route>
-      </Routes>
-      <Footer />
-    </div>
-  );
+				<Routes>
+					<Route path="/about" element={<About />}></Route>
+					<Route path="/projects" element={<Projects />}></Route>
+					<Route path="/contact" element={<Contact />}></Route>
+					<Route path="/" element={<Home />}></Route>
+				</Routes>
+			</div>
+			<Footer />
+		</>
+	);
 }
 
 export default App;
